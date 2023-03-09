@@ -1,0 +1,39 @@
+body {
+    background-color: #002929;
+
+}
+
+.flex-container-1 {
+background-color: #002929;
+display: flex;
+border: 1px solid black;
+height: 600px;
+width: 500px;
+flex-direction: row;
+
+
+}
+
+.flex-container-1 .flex-item {
+text-align: center;
+background-color: #006464; 
+color: white;
+
+}
+
+.flex-container-1 .item-1 {
+    flex-basis: 900px;
+
+}
+
+.flex-container-1 .item-2 {
+    flex-basis: auto;
+background-color: pink;
+
+}
+
+.flex-container-1 .item-3 {
+    flex-basis: auto;
+background-color: orange;
+
+}
