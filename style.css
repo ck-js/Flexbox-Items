@@ -5,6 +5,7 @@ body {
 
 .flex-container-1 {
 background-color: #002929;
+border: 1px dashed black;
 display: flex;
 border: 1px solid black;
 height: 600px;
@@ -17,6 +18,7 @@ flex-direction: row;
 text-align: center;
 background-color: #006464; 
 color: white;
+border: 1px dashed black;
 
 }
 
@@ -69,5 +71,43 @@ flex-grow: 2;
 
 .flex-container-2 .item-3 {
 background-color: yellow;
+
+}
+
+.flex-container-3 {
+    background-color: #002929;
+    border: 1px solid white;
+    display: flex;
+    height: 200px;
+    width: 500px;
+    flex-direction: column;
+    
+    }
+    
+    .flex-container-3 .flex-item {
+    text-align: center;
+    background-color: #006464; 
+    color: white;
+border: 1px dashed black;
+flex-grow: 0;
+flex-basis: 400px;
+
+
+    }
+
+.flex-container-3 .item-1 {
+flex-shrink: 3;
+
+}
+
+.flex-container-3 .item-2 {
+    background-color: pink;
+flex-shrink: 1;
+
+}
+
+.flex-container-3 .item-3 {
+    background-color: yellow;
+flex-shrink: 1;
 
 }
