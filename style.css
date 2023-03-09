@@ -11,7 +11,6 @@ height: 600px;
 width: 500px;
 flex-direction: row;
 
-
 }
 
 .flex-container-1 .flex-item {
@@ -35,5 +34,40 @@ background-color: pink;
 .flex-container-1 .item-3 {
     flex-basis: auto;
 background-color: orange;
+
+}
+
+.flex-container-2 {
+    background-color: #002929;
+    border: 1px solid black;
+    display: flex;
+    height: 600px;
+    width: 500px;
+    flex-direction: row;
+    
+    }
+    
+    .flex-container-2 .flex-item {
+    text-align: center;
+    background-color: #006464; 
+    color: white;
+border: 1px dashed black;
+flex-grow: 0;
+
+    }
+
+    .flex-container-2 .item-1 {
+flex-grow: 1;
+
+    }
+
+.flex-container-2 .item-2 {
+background-color: pink;
+flex-grow: 2;
+
+}
+
+.flex-container-2 .item-3 {
+background-color: yellow;
 
 }
