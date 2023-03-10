@@ -111,3 +111,39 @@ flex-shrink: 1;
 flex-shrink: 1;
 
 }
+
+.flex-container-4 {
+    background-color: #002929;
+    border: 1px solid white;
+    display: flex;
+    height: 200px;
+    width: 500px;
+    flex-direction: column;
+    
+    }
+    
+    .flex-container-4 .flex-item {
+    text-align: center;
+    background-color: #006464; 
+    color: white;
+border: 1px dashed black;
+flex: 0 1 auto;
+
+    }
+
+.flex-container-4 .item-1 {
+flex: 0 1 auto;
+
+}
+
+.flex-container-4 .item-2 {
+    background-color: pink;
+flex: 0 1 auto;
+
+}
+
+.flex-container-4 .item-3 {
+    background-color: yellow;
+flex: 0 1 auto;
+
+}
